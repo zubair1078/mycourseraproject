@@ -1,0 +1,177 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+	text-align: center;
+}
+
+div{
+float :left;
+ padding: 0px 60px 20px 10px;
+}
+
+div#first{
+
+padding-left:20px;
+margin-left: 10%;
+border: 2px solid black;
+}
+
+div#second{
+margin-left: 20%;
+border: 2px solid black;
+}
+
+div#third{
+margin-left: 20%;
+border: 2px solid black;
+}
+
+p{
+float:right;
+    display: inline;
+    background-color: greenyellow;
+    padding: 2px;
+}
+
+section{
+clear: left;
+}
+
+@media(min-width:992px)
+{
+			h1 {
+    color: blue;
+	text-align: center;
+				}
+
+				div{
+				float :left;
+				 padding: 0px 60px 20px 10px;
+				}
+
+				div#first{
+
+				padding-left:20px;
+				margin-left: 10%;
+				border: 2px solid black;
+				}
+
+				div#second{
+				margin-left: 20%;
+				border: 2px solid black;
+				}
+
+				div#third{
+				margin-left: 20%;
+				border: 2px solid black;
+				}
+
+				p{
+					float:right;
+					display: inline;
+					background-color: greenyellow;
+					padding: 2px;
+
+				}
+
+				section{
+				clear: left;
+				}
+
+}
+
+@media(min-width:768px)and (max-width:991px)
+{
+			h1 {
+    color: blue;
+	text-align: center;
+				}
+
+				div{
+				float :left;
+				 padding: 0px 60px 20px 10px;
+				}
+
+				div#first{
+				
+				padding-left:20px;
+				margin-left: 10%;
+				border: 2px solid black;
+				width:50%;
+				}
+
+				div#second{
+				
+				margin-left: 20%;
+				border: 2px solid black;
+				width:50%;
+				}
+
+				div#third{
+				margin-left: 20%;
+				border: 2px solid black;
+				width:100%;
+				}
+
+				p{
+					float:right;
+					display: inline;
+					background-color: greenyellow;
+					padding: 2px;
+
+				}
+
+				section{
+				clear: left;
+				}
+
+}
+
+@media(max-width:767px)
+{
+			h1 {
+    color: blue;
+	text-align: center;
+				}
+
+				div{
+				float :left;
+				
+				}
+
+				div#first{
+				
+				padding-left:20px;
+				margin-left: 10%;
+				border: 2px solid black;
+				width:50%;
+				}
+
+				div#second{
+				
+				margin-left: 20%;
+				border: 2px solid black;
+				width:50%;
+				}
+
+				div#third{
+				margin-left: 20%;
+				border: 2px solid black;
+				width:100%;
+				}
+
+				p{
+					float:right;
+					display: inline;
+					background-color: greenyellow;
+					padding: 2px;
+
+				}
+
+				section{
+				clear: left;
+				}
+
+}
