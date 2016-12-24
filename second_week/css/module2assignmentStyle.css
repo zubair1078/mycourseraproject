@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: Arial,sans-serif;
+}
+/* base styles */
+body
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+div.col
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+	position: relative;
+}
+
+h1{
+	text-align: center;
+	margin: 20px 10px 10px 10px;
+}
+section
+{
+	padding: 30px 10px 10px 10px;
+	border: 1px black solid;
+	background-color: #00FFBB;
+	min-height: 95px;
+}
+p{
+	font-size: 125%;
+	margin-top: 0;
+	font-weight: bold;
+	border: 1px solid black;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+#chicken
+{
+	background-color: #DEB887;
+}
+#fish
+{
+	background-color: #1100FF;
+}
+#lamb
+{
+	background-color: #FF0200;
+}
+/*for large screens */
+@media (min-width: 992px)
+{
+	div.col
+	{
+		width: 33.33%;
+	}
+}
+/*for mdium screens */
+@media (min-width: 768px) and (max-width: 991px)
+{
+	div.col
+	{
+	/*	padding-left: 20px;
+	float: left;
+	position: relative; */
+		width: 50%;
+	}
+	
+	body div:nth-child(4)
+	{
+		width: 100%
+	}
+}
+/*mbile devices will display properly with the base styles set. */ 
